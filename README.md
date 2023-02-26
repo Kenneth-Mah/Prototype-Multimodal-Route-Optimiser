@@ -1,7 +1,5 @@
 # PSAMaritime
-Contains the files used for the prototype multimodal route optimiser developed for the 2nd MSC Maritime Digital Challenge.
-
-The final prototype can be found in Server V4. 
+Contains the files used for the prototype multimodal route optimiser developed for MSC Maritime Digital Challenge 2022.
 
 Before running, make sure to modify the filepaths in MSCFunction.py, so that they point to the correct Excel files in your computer. Also make sure your computer has pandas, numpy, and flask packages imported. Also note that the Google Maps Javascript API requires an API key, which will need to be purchased in order to view the map in the main website.
 
