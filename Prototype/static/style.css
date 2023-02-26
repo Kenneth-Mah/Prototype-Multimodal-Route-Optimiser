@@ -1,0 +1,287 @@
+.landingpage{
+  background-color: #FFFEFA;
+  color: black;
+  border: 5px;
+  border-style: solid;
+  border-color: #000080;
+  border-radius: 10px;
+  box-shadow: 4px 4px #000080;
+  margin: 50px 100px 0 250px;
+  padding: 50px;
+  text-align: center;
+  width: 600px;
+  height: 300px;
+  font-family: sans-serif helvetica;
+}
+
+h3{
+   color: #f4f5e2;
+   background-color: #000080;
+   border: 15px #0066CC;
+   border-radius: 5px;
+   padding: 20px;
+   font-family: arial;
+   
+}
+
+body{
+  background-color: #FFFDD0;
+}
+.label{
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #f28500
+  
+}
+
+.forms{
+  float:left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+}
+
+.button{
+  background-color: #000080;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.routebutton{
+  background-color: #f28500;
+  margin: 0 0 0 20px;
+  font-size: large;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  border: 10px black;
+  border-radius: 25px;
+  box-shadow: 0 9px #999;
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.routebutton:hover {background-color: #ffc107}
+
+.routebutton:active {
+  background-color: #1175A8;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+}
+
+.route1button{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  height: 50px;
+}
+
+.route1button:hover {background-color: #3e8e41}
+
+.route1button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+}
+.customforms{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+}
+
+.customisers{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  background-color: #FFFEFA;
+  color: black;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 0 0 0 0;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  height: 800px;
+}
+
+.removeport{
+  
+  background-color: #FFFEFA;
+  color:  #000080;
+  border: 5px;
+  border-style: solid;
+  border-color: #Ffa500;
+  border-radius: 10px;
+  box-shadow: 4px 4px #000080;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  font-family: sans-serif;
+}
+
+.removetrip{
+
+  background-color: #FFFEFA;
+  color: #000080;
+  border: 5px;
+  border-style: solid;
+  border-color: #Ffa500;
+  border-radius: 10px;
+  box-shadow: 4px 4px #000080;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  font-family: sans-serif;
+}
+
+.constraints{
+  background-color: #FFFEFA;
+  color: #000080;
+  border: 5px;
+  border-style: solid;
+  border-color: #Ffa500;
+  border-radius: 10px;
+  box-shadow: 4px 4px #000080;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  font-family: sans-serif;
+}
+
+.route{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 830px;
+  float: right;
+  justify-content: flex-start;
+  background-color: #FFFEFA;
+  color: black;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 0 0 0 0;
+  padding: 10px;
+  text-align: center;
+  width: 900px;
+  height: 200px;
+  flex-grow: 1;
+}
+
+.chooseroute{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  background-color: #FFFEFA;
+  color: black;
+  margin: 0 0 0 50px;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+  justify-content: space-around;
+  
+}
+
+.Gmap{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 780px;
+  float: right;
+  justify-content: flex-start;
+  background-color: #FFFEFA;
+  color: black;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 0 0 0 0;
+  padding: 10px;
+  text-align: center;
+  width: 900px;
+  height: 500px;
+  flex-grow: 1;
+}
+
+#map{
+  height: 500px;
+}
+
+table {
+  text-align: center;
+  position: relative;
+  border-collapse: collapse; 
+  background-color: #FFFDD0;
+  font-family: sans-serif;
+}/* Spacing */
+td, th {
+  border: 1px solid #999;
+  padding: 10px;
+}
+th {
+  background: #ADD8E6;
+  color: black;
+  border-radius: 0;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+}
+.primary{
+  background-color: #000000
+
+}
+
+tfoot > tr  {
+  background: #90ee90;
+  color: black;
+}
+tbody > tr:hover {
+  background-color: #ffc107;
+  
+
+.displayroute: after {
+  content: "";
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  clear: both;
+}
+
+.routeTab {
+  padding: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}

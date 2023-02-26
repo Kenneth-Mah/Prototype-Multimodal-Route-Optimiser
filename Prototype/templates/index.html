@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KAAAndle Maritime Route Optimiser</title>
+
+<link rel = 'stylesheet' type = "text/css" href = "{{ url_for('static',filename='style.css') }}">
+
+</head>
+
+
+<body>
+    <h3>KAAANDLE Maritime Route Optimiser</h3>
+<div class="landingpage">
+    <form method="post" action="{{ url_for('result') }}">
+      <div class = "label">
+        <label for="departure">ORIGIN PORT</label><br><br>
+        <label for="arrival">DESTINATION PORT </label><br><br>
+        <label for="time">DATE OF DEPARTURE</label><br><br>
+        <label for = "mode">TRANSIT MODE</label><br><br>
+        <label for = "opti">OPTIMISATION</label><br><br>
+        <label for = "connect">CONNECTION TIME</label>
+      </div>
+      
+      <div class = "forms">
+        <input type="text" id="departure" name="departure" placeholder = "Origin Code" required><br><br>
+        <input type="text" id="arrival" name="arrival" placeholder = "Destination Code" required><br><br>
+        <input type="number" id="time" name="time" placeholder= "YYYYMMDD" required><br><br>
+        
+        <!--CHANGE-->
+        <span>
+          <input type = "checkbox" id = "mode" name = "mode" value="Ocean"> Ocean
+          <input type = "checkbox" id = "mode" name = "mode" value="Air"> Air
+          <input type = "checkbox" id = "mode" name = "mode" value="Land"> Land<br><br><br>
+        </span>
+        
+        <span>
+          <input type = "radio" id = "opti" name = "opti" value="Time"> Time
+          <input type = "radio" id = "opti" name = "opti" value="Cost"> Cost
+          <input type = "radio" id = "opti" name = "opti" value="Carbon"> Carbon <br><br><br>
+        </span>
+        
+        <input type = "number" id = "connect" name = "connect" placeholder = "Hours" required><br>
+        <input type="submit" class="button" value="GO!">
+
+      </div>
+    
+    </form>
+
+</div>
+
+
+
+</body>
+</html>
